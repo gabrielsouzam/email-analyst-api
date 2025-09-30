@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: email-analyst-api
+    runtime: docker
+    plan: free
+    autoDeploy: false
+    dockerfilePath: ./Dockerfile 
+    envVars:
+      - key: PORT
+        value: 5000
