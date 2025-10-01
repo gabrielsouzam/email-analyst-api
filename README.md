@@ -1,4 +1,4 @@
-# 📧 Email Analyst API
+# Email Analyst API
 
 API REST para classificação inteligente de emails utilizando Google Gemini AI.
 
