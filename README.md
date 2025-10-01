@@ -2,7 +2,7 @@
 
 API REST para classificação inteligente de emails utilizando Google Gemini AI.
 
-## 🚀 Tecnologias
+## Tecnologias
 
 - **FastAPI** - Framework web moderno e rápido
 - **Python 3.11+** - Linguagem de programação
@@ -11,12 +11,12 @@ API REST para classificação inteligente de emails utilizando Google Gemini AI.
 - **PyPDF2** - Processamento de arquivos PDF
 - **Uvicorn** - Servidor ASGI
 
-## 📋 Pré-requisitos
+## Pré-requisitos
 
 - Docker instaldo na máquina
-- Chave de API do Google Gemini ([obtenha aqui](https://makersuite.google.com/app/apikey))
+- Chave de API do Google Gemini
 
-## 🔧 Instalação
+## Instalação
 
 ```bash
 # Clone o repositório
@@ -24,7 +24,7 @@ git clone https://github.com/gabrielsouzam/email-analyst-api
 cd email-analyst-api
 ```
 
-## ⚙️ Configuração
+## Configuração
 
 Crie um arquivo `.env` no diretório raiz com sua chave da API do Google:
 
@@ -98,12 +98,16 @@ Após executar a aplicação, acesse:
 - Swagger UI: http://localhost:5000/docs
 - ReDoc: http://localhost:5000/redoc
 
-## 🎯 Funcionalidades
+## Funcionalidades
 
-- ✅ Classificação de emails (Produtivo/Improdutivo)
-- ✅ Geração automática de respostas
-- ✅ Processamento de arquivos .txt e .pdf
+- Classificação de emails (Produtivo/Improdutivo)
+- Geração automática de respostas
+- Processamento de arquivos .txt e .pdf
 
-## 👨‍💻 Autor
+## Deploy
+
+- Você pode acessar a API ([clicando aqui](https://email-analyst-api.onrender.com/)) 
+
+## Autor
 
 Desenvolvido por Gabriel Mendes 💙!
