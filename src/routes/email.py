@@ -28,7 +28,7 @@ async def get_email_analysis(
 async def get_email_analysis_from_file(
   file: UploadFile = File(...),
   ai_service = Depends(get_ai_service)
-):
+)-> EmailResponse:
   try:
     text = await get_file_content_util(file)
   
